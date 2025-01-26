@@ -218,8 +218,7 @@ html, body {
 
 /* Hide images on mobile */
 @media (max-width: 768px) {
-    .elem img, 
-    #about img {
+    .elem img{
         display: none;
     }
 
@@ -263,7 +262,6 @@ html, body {
     }
 
     #about img {
-        display: flex;
         width: 150px;
     }
 }
